@@ -1,0 +1,128 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: white;
+}
+
+label {
+	color: #374151;
+}
+
+input[type=text], input[type=checkbox], input[type=submit], #bio {
+	background: #FFFFFF;
+	border: 1px solid #D2D6DB;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+input[type=text], input[type=submit], #bio {
+	width: 298px;
+	padding: 15px;
+	margin-top: 8px;
+}
+
+input[type=submit] {
+	background: #5850EB;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	cursor: pointer;
+}
+
+/* Whole section to edit profile */
+.edit-profile {
+	position: absolute;
+	width: 1028px;
+	height: 550px;
+	left: 116px;
+	top: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+
+	padding: 33px 46px 55px 44px;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+/* Modify my profile */
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #374151;
+	margin: 0;
+}
+
+.line-hr {
+	position: absolute;
+	height: 1px;
+	width: 1028px;
+	background: #D7DBDF;
+	border: unset;
+	margin: 11px auto 31px;
+}
+
+.formular {
+	margin-top: 43px;
+}
+
+/* Inputs information */
+.info, .line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info > div, .line div, .identity-biography {
+	display: flex;
+	flex-direction: column;
+}
+
+.identity-mandatory {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 65%;
+}
+
+.identity-biography {
+	width: 300px;
+	height: 177px;
+}
+
+#bio { resize: none;}
+
+.address-names, .line div, .identity-biography {
+	margin-top: 25px;
+}
+
+/* Checkboxes newsletters */
+.checkboxes {
+	display: flex;
+}
+.checkboxes > div {
+	margin: 27px 24px 24px 0;
+}
+
+/* Submit button */
+.save-edit-profile {
+	text-align: right;
+}
+
+/* ~~~ Responsive CSS ~~~ */
+@media screen and (max-width: 900px) {
+	.edit-profile {
+		position: relative;
+		width: 345px;
+		height: 1200px;
+		left: 10px;
+		margin: 10px auto;
+	}
+	.line-hr {
+		width: 345px;
+	}
+	.info, .line, .checkboxes {
+		display: unset;
+	}
+}

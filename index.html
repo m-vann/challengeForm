@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Challenge Grafikart - Formulaire</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	
+	<section class="edit-profile">
+		<h1 class="title">
+			Modifier mon profil
+		</h1>
+		<hr class="line-hr"/>
+
+		<form action="" class="formular">
+			<div class="info">
+				<div class="identity-mandatory">
+					<div class="line">
+						<div class="lastname">
+							<label for="lname">Nom</label>
+							<input type="text" id="lname"/>
+						</div>
+
+						<div class="firstname">
+							<label for="fname">Prénom</label>
+							<input type="text" id="fname"/>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="email">
+							<label for="mail">Email</label>
+							<input type="text" id="mail" placeholder="monemail@demo.fr"/>
+						</div>
+
+						<div class="telephone">
+							<label for="tel">Téléphone (mobile)</label>
+							<input type="text" id="tel"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="identity-biography">
+					<label for="bio">Bio</label>
+					<textarea id="bio" cols="30" rows="10"></textarea>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="address-names">
+					<label for="addr">Adresse</label>
+					<input type="text" id="addr"/>
+				</div>
+				<div class="address-names">
+					<label for="city">Ville</label>
+					<input type="text" id="city"/>
+				</div>
+				<div class="address-names">
+					<label for="postal">Code Postal</label>
+					<input type="text" id="postal"/>
+				</div>
+			</div>
+
+			<div class="checkboxes">
+				<div>
+					<input type="checkbox" id="newsletter">
+					<label for="newsletter">Je souhaite recevoir la newsletter</label>
+				</div>
+				<div>
+					<input type="checkbox" id="newsletter-partner">
+					<label for="newsletter-partner">Je souhaite recevoir la newsletter des partenaires</label>
+				</div>
+			</div>
+
+			<div class="save-edit-profile">
+				<input type="submit" value="Enregistrer mes modifications"/>
+			</div>
+		</form>
+	</section>
+	
+</body>
+</html>
