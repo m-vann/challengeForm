@@ -1,0 +1,20 @@
+{
+	"name": "my_package",
+	"description": "Mini Challenge by Grafikart in HTML & CSS. Using Flex to create a formular to edit profile.",
+	"version": "1.0.0",
+	"main": "index.html",
+	"scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/m-vann/challengeForm.git"
+	},
+	"keywords": [],
+	"author": "Michel VANN",
+	"license": "ISC",
+	"bugs": {
+	  "url": "https://github.com/m-vann/challengeForm/issues"
+	},
+	"homepage": "https://github.com/m-vann/challengeForm.git"
+  }
